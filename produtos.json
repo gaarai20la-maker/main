@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "nome": "Smart TV 50\" 4K",
+    "preco": "2299,00",
+    "categoria": "Eletrônicos",
+    "imagem": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjNmNGY2Ii8+PHRleHQgeD0iNTAlIiB5PSI0NSUiIGZvbnQtc2l6ZT0iMjAiIGZpbGw9IiMzMzMiIHRleHQtYW5jaG9yPSJtaWRkbGUiPk5vdGVib29rPC90ZXh0Pjx0ZXh0IHg9IjUwJSIgeT0iNjUlIiBmb250LXNpemU9IjE0IiBmaWxsPSIjNjY2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5TbWFydCBUViA1MCYjeGQ7IDRLPC90ZXh0Pjwvc3ZnPg==",
+    "descricao": "Smart TV Ultra HD com resolução 4K, suporta streaming de apps populares e conexão Internet.",
+    "parcelas": "10x de 229,90",
+    "avaliacao": 4.5
+  },
+  {
+    "id": 2,
+    "nome": "Geladeira Frost Free 400L",
+    "preco": "3199,00",
+    "categoria": "Eletrodomésticos",
+    "imagem": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjNmNGY2Ii8+PHRleHQgeD0iNTAlIiB5PSI0NSUiIGZvbnQtc2l6ZT0iMjAiIGZpbGw9IiMzMzMiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkdlbGFkZWlyYTwvdGV4dD48dGV4dCB4PSI1MCUiIHk9IjY1JSIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzY2NiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+RmVyc3QgRnJlZSA0MDBMPC90ZXh0Pjwvc3ZnPg==",
+    "descricao": "Geladeira moderna com tecnologia Frost Free, sistema de refrigeração eficiente e design elegante.",
+    "parcelas": "12x de 319,90",
+    "avaliacao": 4.7
+  },
+  {
+    "id": 3,
+    "nome": "Lavadora 11kg",
+    "preco": "1299,00",
+    "categoria": "Eletrodomésticos",
+    "imagem": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjNmNGY2Ii8+PHRleHQgeD0iNTAlIiB5PSI0NSUiIGZvbnQtc2l6ZT0iMjAiIGZpbGw9IiMzMzMiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkxhdmFkb3JhPC90ZXh0Pjx0ZXh0IHg9IjUwJSIgeT0iNjUlIiBmb250LXNpemU9IjE0IiBmaWxsPSIjNjY2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj4xMWtnIENhcGFjaWRhZGU8L3RleHQ+PC9zdmc+",
+    "descricao": "Máquina de lavar com capacidade de 11kg, ciclos automáticos e função de secagem.",
+    "parcelas": "12x de 129,90",
+    "avaliacao": 4.8
+  },
+  {
+    "id": 4,
+    "nome": "Micro-ondas 30L",
+    "preco": "599,00",
+    "categoria": "Eletrodomésticos",
+    "imagem": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjNmNGY2Ii8+PHRleHQgeD0iNTAlIiB5PSI0NSUiIGZvbnQtc2l6ZT0iMjAiIGZpbGw9IiMzMzMiIHRleHQtYW5jaG9yPSJtaWRkbGUiPk1pY3JvLW9uZGFzPC90ZXh0Pjx0ZXh0IHg9IjUwJSIgeT0iNjUlIiBmb250LXNpemU9IjE0IiBmaWxsPSIjNjY2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj4zMEwgQ2FwYWNpZGFkZTwvdGV4dD48L3N2Zz4=",
+    "descricao": "Micro-ondas com capacidade de 30L, múltiplas funções e design moderno.",
+    "parcelas": "6x de 99,83",
+    "avaliacao": 4.3
+  },
+  {
+    "id": 5,
+    "nome": "Fogão 4 bocas",
+    "preco": "899,00",
+    "categoria": "Eletrodomésticos",
+    "imagem": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjNmNGY2Ii8+PHRleHQgeD0iNTAlIiB5PSI0NSUiIGZvbnQtc2l6ZT0iMjAiIGZpbGw9IiMzMzMiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkZvZ8OjPC90ZXh0Pjx0ZXh0IHg9IjUwJSIgeT0iNjUlIiBmb250LXNpemU9IjE0IiBmaWxsPSIjNjY2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj40IEJvY2FzIC0gSW5veDwvdGV4dD48L3N2Zz4=",
+    "descricao": "Fogão a gás com 4 bocas, forno elétrico e acabamento em inox.",
+    "parcelas": "8x de 112,38",
+    "avaliacao": 4.4
+  },
+  {
+    "id": 6,
+    "nome": "Sofá 3 Lugares",
+    "preco": "1899,00",
+    "categoria": "Móveis",
+    "imagem": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjNmNGY2Ii8+PHRleHQgeD0iNTAlIiB5PSI0NSUiIGZvbnQtc2l6ZT0iMjAiIGZpbGw9IiMzMzMiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlNvZsOhPC90ZXh0Pjx0ZXh0IHg9IjUwJSIgeT0iNjUlIiBmb250LXNpemU9IjE0IiBmaWxsPSIjNjY2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj4zIEx1Z2FyZXMgLSBUZWNpZG88L3RleHQ+PC9zdmc+",
+    "descricao": "Sofá confortável com 3 lugares, revestimento em tecido premium e estrutura reforçada.",
+    "parcelas": "10x de 189,90",
+    "avaliacao": 4.6
+  },
+  {
+    "id": 7,
+    "nome": "Guarda-roupa 6 portas",
+    "preco": "2499,00",
+    "categoria": "Móveis",
+    "imagem": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjNmNGY2Ii8+PHRleHQgeD0iNTAlIiB5PSI0NSUiIGZvbnQtc2l6ZT0iMjAiIGZpbGw9IiMzMzMiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkFybWFyaW88L3RleHQ+PHRleHQgeD0iNTAlIiB5PSI2NSUiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiM2NjYiIHRleHQtYW5jaG9yPSJtaWRkbGUiPjYgUG9ydGFzIC0gRXNwYcOzbyBWhcOzdmVsPC90ZXh0Pjwvc3ZnPg==",
+    "descricao": "Guarda-roupa espaçoso com 6 portas, prateleiras e gavetas organizadoras.",
+    "parcelas": "12x de 208,25",
+    "avaliacao": 4.5
+  },
+  {
+    "id": 8,
+    "nome": "Cama Casal Box",
+    "preco": "1399,00",
+    "categoria": "Móveis",
+    "imagem": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjNmNGY2Ii8+PHRleHQgeD0iNTAlIiB5PSI0NSUiIGZvbnQtc2l6ZT0iMjAiIGZpbGw9IiMzMzMiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkNhbWEgQm94PC90ZXh0Pjx0ZXh0IHg9IjUwJSIgeT0iNjUlIiBmb250LXNpemU9IjE0IiBmaWxsPSIjNjY2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5DYXNhbCAtIENvbWZvcnRvIE1heGltbzwvdGV4dD48L3N2Zz4=",
+    "descricao": "Cama de casal com baú, estrutura resistente e design moderno.",
+    "parcelas": "10x de 139,90",
+    "avaliacao": 4.4
+  },
+  {
+    "id": 9,
+    "nome": "Mesa de Jantar 6 cadeiras",
+    "preco": "1799,00",
+    "categoria": "Móveis",
+    "imagem": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjNmNGY2Ii8+PHRleHQgeD0iNTAlIiB5PSI0NSUiIGZvbnQtc2l6ZT0iMjAiIGZpbGw9IiMzMzMiIHRleHQtYW5jaG9yPSJtaWRkbGUiPk1lc2EgZGUgSmFudGFyPC90ZXh0Pjx0ZXh0IHg9IjUwJSIgeT0iNjUlIiBmb250LXNpemU9IjE0IiBmaWxsPSIjNjY2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj42IENhZGVpcmFzIC0gRmFtaWxpYXI8L3RleHQ+PC9zdmc+",
+    "descricao": "Conjunto mesa de jantar com 6 cadeiras, ideal para família.",
+    "parcelas": "10x de 179,90",
+    "avaliacao": 4.5
+  },
+  {
+    "id": 10,
+    "nome": "Rack para TV",
+    "preco": "499,00",
+    "categoria": "Móveis",
+    "imagem": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjNmNGY2Ii8+PHRleHQgeD0iNTAlIiB5PSI0NSUiIGZvbnQtc2l6ZT0iMjAiIGZpbGw9IiMzMzMiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlJhY2sgcGFyYSBUVjwvdGV4dD48dGV4dCB4PSI1MCUiIHk9IjY1JSIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzY2NiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+TW9kZXJubyAtIE11bHRpdXNvPC90ZXh0Pjwvc3ZnPg==",
+    "descricao": "Rack moderno para TV com espaço para equipamentos e armazenamento.",
+    "parcelas": "5x de 99,80",
+    "avaliacao": 4.2
+  },
+  {
+    "id": 11,
+    "nome": "Colchão Casal D33",
+    "preco": "799,00",
+    "categoria": "Colchões",
+    "imagem": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjNmNGY2Ii8+PHRleHQgeD0iNTAlIiB5PSI0NSUiIGZvbnQtc2l6ZT0iMjAiIGZpbGw9IiMzMzMiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkNvbGNo8jNvPC90ZXh0Pjx0ZXh0IHg9IjUwJSIgeT0iNjUlIiBmb250LXNpemU9IjE0IiBmaWxsPSIjNjY2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5DYXNhbCAtIEUzMyAtIENvbWZvcnRvPC90ZXh0Pjwvc3ZnPg==",
+    "descricao": "Colchão de casal com espuma D33, conforto e durabilidade.",
+    "parcelas": "8x de 99,88",
+    "avaliacao": 4.6
+  },
+  {
+    "id": 12,
+    "nome": "Colchão Queen Molas",
+    "preco": "1499,00",
+    "categoria": "Colchões",
+    "imagem": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjNmNGY2Ii8+PHRleHQgeD0iNTAlIiB5PSI0NSUiIGZvbnQtc2l6ZT0iMjAiIGZpbGw9IiMzMzMiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkNvbGNo8jNvIFF1ZWVuPC90ZXh0Pjx0ZXh0IHg9IjUwJSIgeT0iNjUlIiBmb250LXNpemU9IjE0IiBmaWxsPSIjNjY2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5Nb2xhcyBFbnNhY2FkYXMgLSBNYXhpbW88L3RleHQ+PC9zdmc+",
+    "descricao": "Colchão queen size com molas ensacadas para máximo conforto.",
+    "parcelas": "10x de 149,90",
+    "avaliacao": 4.7
+  },
+  {
+    "id": 13,
+    "nome": "Colchão Solteiro Espuma",
+    "preco": "499,00",
+    "categoria": "Colchões",
+    "imagem": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjNmNGY2Ii8+PHRleHQgeD0iNTAlIiB5PSI0NSUiIGZvbnQtc2l6ZT0iMjAiIGZpbGw9IiMzMzMiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkNvbGNo8jNvPC90ZXh0Pjx0ZXh0IHg9IjUwJSIgeT0iNjUlIiBmb250LXNpemU9IjE0IiBmaWxsPSIjNjY2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5Tb2x0ZWlybyAtIEVzcHVtYSBBbHRhPC90ZXh0Pjwvc3ZnPg==",
+    "descricao": "Colchão de solteiro com espuma de alta densidade.",
+    "parcelas": "5x de 99,80",
+    "avaliacao": 4.3
+  },
+  {
+    "id": 14,
+    "nome": "Notebook 8GB RAM",
+    "preco": "3299,00",
+    "categoria": "Eletrônicos",
+    "imagem": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjNmNGY2Ii8+PHRleHQgeD0iNTAlIiB5PSI0NSUiIGZvbnQtc2l6ZT0iMjAiIGZpbGw9IiMzMzMiIHRleHQtYW5jaG9yPSJtaWRkbGUiPk5vdGVib29rPC90ZXh0Pjx0ZXh0IHg9IjUwJSIgeT0iNjUlIiBmb250LXNpemU9IjE0IiBmaWxsPSIjNjY2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj44R0IgUkFNIC0gU1NEIDI1Nkc8L3RleHQ+PC9zdmc+",
+    "descricao": "Notebook com 8GB RAM, processador Intel e SSD de 256GB.",
+    "parcelas": "12x de 274,92",
+    "avaliacao": 4.4
+  },
+  {
+    "id": 15,
+    "nome": "Smartphone 128GB",
+    "preco": "1799,00",
+    "categoria": "Eletrônicos",
+    "imagem": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjNmNGY2Ii8+PHRleHQgeD0iNTAlIiB5PSI0NSUiIGZvbnQtc2l6ZT0iMjAiIGZpbGw9IiMzMzMiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlNtYXJ0cGhvbmU8L3RleHQ+PHRleHQgeD0iNTAlIiB5PSI2NSUiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiM2NjYiIHRleHQtYW5jaG9yPSJtaWRkbGUiPjEyOEdCIC0gQ8OjcmEgVWx0cmE8L3RleHQ+PC9zdmc+",
+    "descricao": "Smartphone com 128GB de armazenamento, câmera de alta resolução.",
+    "parcelas": "10x de 179,90",
+    "avaliacao": 4.5
+  },
+  {
+    "id": 16,
+    "nome": "Ar-condicionado 12000 BTUs",
+    "preco": "2199,00",
+    "categoria": "Eletrodomésticos",
+    "imagem": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjNmNGY2Ii8+PHRleHQgeD0iNTAlIiB5PSI0NSUiIGZvbnQtc2l6ZT0iMjAiIGZpbGw9IiMzMzMiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkFyLWNvbmRpY2lvbmFkbzwvdGV4dD48dGV4dCB4PSI1MCUiIHk9IjY1JSIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzY2NiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+MTIwMDAgQlRVcyAtIFNwbGl0PC90ZXh0Pjwvc3ZnPg==",
+    "descricao": "Ar-condicionado split de 12000 BTUs, eficiente e silencioso.",
+    "parcelas": "12x de 183,25",
+    "avaliacao": 4.6
+  },
+  {
+    "id": 17,
+    "nome": "Ventilador de Coluna",
+    "preco": "199,00",
+    "categoria": "Eletrodomésticos",
+    "imagem": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjNmNGY2Ii8+PHRleHQgeD0iNTAlIiB5PSI0NSUiIGZvbnQtc2l6ZT0iMjAiIGZpbGw9IiMzMzMiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlZlbnRpbGFkb3I8L3RleHQ+PHRleHQgeD0iNTAlIiB5PSI2NSUiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiM2NjYiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkNvbHVuYSAtIDMgVmVsb2NpZGFkZXM8L3RleHQ+PC9zdmc+",
+    "descricao": "Ventilador de coluna com 3 velocidades e timer.",
+    "parcelas": "2x de 99,50",
+    "avaliacao": 4.1
+  },
+  {
+    "id": 18,
+    "nome": "Air Fryer 5L",
+    "preco": "399,00",
+    "categoria": "Eletrodomésticos",
+    "imagem": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjNmNGY2Ii8+PHRleHQgeD0iNTAlIiB5PSI0NSUiIGZvbnQtc2l6ZT0iMjAiIGZpbGw9IiMzMzMiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkFpciBGcnllcjwvdGV4dD48dGV4dCB4PSI1MCUiIHk9IjY1JSIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzY2NiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+NUwgLSBTZW0g8WNsZW88L3RleHQ+PC9zdmc+",
+    "descricao": "Fritadeira elétrica sem óleo, capacidade de 5L, ideal para frituras saudáveis.",
+    "parcelas": "4x de 99,75",
+    "avaliacao": 4.4
+  },
+  {
+    "id": 19,
+    "nome": "Escrivaninha",
+    "preco": "599,00",
+    "categoria": "Móveis",
+    "imagem": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjNmNGY2Ii8+PHRleHQgeD0iNTAlIiB5PSI0NSUiIGZvbnQtc2l6ZT0iMjAiIGZpbGw9IiMzMzMiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkVzY3JpdmFuaW5oYTwvdGV4dD48dGV4dCB4PSI1MCUiIHk9IjY1JSIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzY2NiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+TW9kZXJuYSAtIE11bHRpdXNvPC90ZXh0Pjwvc3ZnPg==",
+    "descricao": "Escrivaninha moderna com gavetas e espaço para computador.",
+    "parcelas": "6x de 99,83",
+    "avaliacao": 4.2
+  },
+  {
+    "id": 20,
+    "nome": "Cadeira Gamer",
+    "preco": "899,00",
+    "categoria": "Móveis",
+    "imagem": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjNmNGY2Ii8+PHRleHQgeD0iNTAlIiB5PSI0NSUiIGZvbnQtc2l6ZT0iMjAiIGZpbGw9IiMzMzMiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkNhZGVpcmEgR2FtZXI8L3RleHQ+PHRleHQgeD0iNTAlIiB5PSI2NSUiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiM2NjYiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkVyZ29uw7RtaWNhIC0gQWp1c3TDoXZlbDwvdGV4dD48L3N2Zz4=",
+    "descricao": "Cadeira ergonômica para gamers, com ajustes de altura e inclinação.",
+    "parcelas": "8x de 112,38",
+    "avaliacao": 4.6
+  }
+]

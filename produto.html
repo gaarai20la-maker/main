@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detalhes do Produto - Lojas Cem</title>
+  <link rel="stylesheet" href="style-produto.css">
+</head>
+<body>
+
+<header class="header-produto">
+  <button class="btn-voltar" onclick="window.history.back()">← Voltar</button>
+  <div class=\"logo-container\">
+    <img src=\"https://th.bing.com/th/id/OIP.c_TV-15RsPvl0mbiqm_x-gHaB0?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3\" alt=\"Lojas Cem\" class=\"logo\">
+    <h1>LOJAS CEM</h1>
+  </div>
+  <span class="carrinho-icon" onclick="window.location.href='carrinho.html'">🛒</span>
+</header>
+
+<main class="container-produto">
+  <div class="produto-imagem">
+    <img id="prod-imagem" src="" alt="Produto">
+  </div>
+
+  <div class="produto-info">
+    <h2 id="prod-nome"></h2>
+    
+    <div class="produto-avaliacao">
+      <span id="prod-estrelas"></span>
+      <span id="prod-avaliacoes">(4.5)</span>
+    </div>
+
+    <div class="produto-preco-section">
+      <div class="preco-principal">
+        <span class="label">De</span>
+        <span class="preco" id="prod-preco">R$ 0,00</span>
+      </div>
+      <div class="parcelas">
+        <span id="prod-parcelas">10x de R$ 0,00</span>
+      </div>
+    </div>
+
+    <div class="frete-info">
+      <span class="frete-icon">📦</span>
+      <div>
+        <p class="frete-titulo">Frete e Montagem GRÁTIS</p>
+        <p class="frete-desc">Entrega em até 3 dias úteis na sua região</p>
+      </div>
+    </div>
+
+    <div class="descricao">
+      <h3>Descrição do Produto</h3>
+      <p id="prod-descricao"></p>
+    </div>
+
+    <div class="especificacoes">
+      <h3>Especificações</h3>
+      <div class="spec-list">
+        <div class="spec-item">
+          <span class="spec-label">Categoria:</span>
+          <span class="spec-valor" id="prod-categoria"></span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-label">Código:</span>
+          <span class="spec-valor" id="prod-id"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="acoes">
+      <button class="btn-comprar-grande">🛒 Adicionar ao Carrinho</button>
+      <button class="btn-favorito">❤️ Favoritar</button>
+    </div>
+
+    <div class="info-seguranca">
+      <p>✓ Compra 100% segura</p>
+      <p>✓ Garantia do Fabricante</p>
+      <p>✓ Satisfação Garantida</p>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <nav class="nav-footer">
+    <button class="nav-btn" onclick="window.location.href='index.html'">
+      <span>🏠</span>
+      <p>Início</p>
+    </button>
+    <button class="nav-btn">
+      <span>📂</span>
+      <p>Categorias</p>
+    </button>
+    <button class="nav-btn" onclick="window.location.href='favoritos.html'">
+      <span>❤️</span>
+      <p>Favoritos</p>
+    </button>
+    <button class="nav-btn" onclick="window.location.href='carrinho.html'">
+      <span>🛒</span>
+      <p>Carrinho</p>
+    </button>
+  </nav>
+</footer>
+
+<script src="script-produto.js"></script>
+</body>
+</html>

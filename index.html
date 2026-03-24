@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lojas Cem</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-top">
+    <div class="logo-container">
+      <img src="https://th.bing.com/th/id/OIP.c_TV-15RsPvl0mbiqm_x-gHaB0?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Lojas Cem" class="logo">
+      <h1>LOJAS CEM</h1>
+    </div>
+    <span class="carrinho-icon" onclick="window.location.href='carrinho.html'">🛒</span>
+  </div>
+  <div class="search-box">
+    <input type="text" placeholder="O que você está procurando?" id="search">
+    <button class="btn-search">🔍</button>
+  </div>
+  <div class="filters">
+    <select id="filter-categoria">
+      <option value="">Todas as Categorias</option>
+      <option value="Eletrônicos">Eletrônicos</option>
+      <option value="Eletrodomésticos">Eletrodomésticos</option>
+      <option value="Móveis">Móveis</option>
+      <option value="Colchões">Colchões</option>
+    </select>
+    <input type="number" placeholder="Preço mínimo" id="filter-preco-min">
+    <input type="number" placeholder="Preço máximo" id="filter-preco-max">
+    <button id="btn-limpar-filtros">Limpar Filtros</button>
+  </div>
+</header>
+
+<section class="banner">
+  <div class="banner-content">
+    <h2>OFERTAS IMPERDÍVEIS</h2>
+    <p>ESSA SEMANA!</p>
+    <div class="banner-promo">
+      <span class="promo-badge">Entrega e Montagem</span>
+      <span class="promo-text">GRÁTIS</span>
+    </div>
+  </div>
+  <div class="banner-dots">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+</section>
+
+<section class="menu-rapido">
+  <div class="menu-item">
+    <span class="icon">💳</span>
+    <h4>Meu Carnê</h4>
+    <p>Consultar Carnê</p>
+  </div>
+  <div class="menu-item">
+    <span class="icon">💰</span>
+    <h4>Crédito Fácil</h4>
+    <p>Crédito na Hora</p>
+  </div>
+  <div class="menu-item">
+    <span class="icon">📍</span>
+    <h4>Encontre uma Loja</h4>
+  </div>
+  <div class="menu-item">
+    <span class="icon">🏷️</span>
+    <h4>Ofertas Exclusivas</h4>
+  </div>
+</section>
+
+<section class="categorias">
+  <div class="categorias-header">
+    <h3>Categorias</h3>
+    <a href="#">Ver Todas ></a>
+  </div>
+  <div class="grid-categorias">
+    <div class="categoria-box">
+      <span class="cat-icon">🏠</span>
+      <p>Eletrodomésticos</p>
+    </div>
+    <div class="categoria-box">
+      <span class="cat-icon">📺</span>
+      <p>Eletrônicos</p>
+    </div>
+    <div class="categoria-box">
+      <span class="cat-icon">🛋️</span>
+      <p>Móveis</p>
+    </div>
+    <div class="categoria-box">
+      <span class="cat-icon">🛏️</span>
+      <p>Colchões</p>
+    </div>
+  </div>
+</section>
+
+<section class="produtos">
+  <h3>Destaques da Semana</h3>
+  <div id="lista-produtos" class="grid-produtos"></div>
+</section>
+
+<footer>
+  <nav class="nav-footer">
+    <button class="nav-btn active">
+      <span>🏠</span>
+      <p>Início</p>
+    </button>
+    <button class="nav-btn">
+      <span>📂</span>
+      <p>Categorias</p>
+    </button>
+    <button class="nav-btn" onclick="window.location.href='favoritos.html'">
+      <span>❤️</span>
+      <p>Favoritos</p>
+    </button>
+    <button class="nav-btn" onclick="window.location.href='carrinho.html'">
+      <span>🛒</span>
+      <p>Carrinho</p>
+    </button>
+  </nav>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Favoritos - Lojas Cem</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-top">
+    <div class="logo-container">
+      <img src="https://th.bing.com/th/id/OIP.c_TV-15RsPvl0mbiqm_x-gHaB0?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Lojas Cem" class="logo">
+      <h1>LOJAS CEM</h1>
+    </div>
+    <span class="carrinho-icon" onclick="window.location.href='carrinho.html'">🛒</span>
+  </div>
+</header>
+
+<section class="produtos">
+  <h3>Meus Favoritos</h3>
+  <div id="lista-favoritos" class="grid-produtos"></div>
+</section>
+
+<footer>
+  <nav class="nav-footer">
+    <button class="nav-btn" onclick="window.location.href='index.html'">
+      <span>🏠</span>
+      <p>Início</p>
+    </button>
+    <button class="nav-btn">
+      <span>📂</span>
+      <p>Categorias</p>
+    </button>
+    <button class="nav-btn active">
+      <span>❤️</span>
+      <p>Favoritos</p>
+    </button>
+    <button class="nav-btn" onclick="window.location.href='carrinho.html'">
+      <span>🛒</span>
+      <p>Carrinho</p>
+    </button>
+  </nav>
+</footer>
+
+<script src="script-favoritos.js"></script>
+</body>
+</html>
