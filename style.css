@@ -582,13 +582,22 @@ body {
     height: 36px;
   }
 
+  .carrinho-icon,
+  .logo-container,
+  .cartao-icon,
+  .usuario-icon {
+    font-size: 26px;
+    height: 40px;
+    width: auto;
+  }
+
   .nav-btn {
-    padding: 10px 6px;
-    font-size: 11px;
+    padding: 12px 8px;
+    font-size: 12px;
   }
 
   .nav-btn span {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .menu-item {
