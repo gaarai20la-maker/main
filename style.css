@@ -657,7 +657,32 @@ body {
   .grid-produtos {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  header, footer {
+    padding: 12px 10px;
+  }
+
+  .header-top,
+  .nav-footer {
+    gap: 8px;
+  }
+
+  .nav-btn {
+    font-size: 13px;
+    padding: 10px 8px;
+  }
+
+  .nav-btn span {
+    font-size: 22px;
+  }
+
+  .carrinho-icon,
+  .user-icon,
+  .logo {
+    font-size: 26px;
+  }
 }
+
 
 @media (min-width: 768px) {
   .grid-produtos {
@@ -745,10 +770,11 @@ body {
   color: #666;
   font-size: 14px;
 }
+  /* removido ajuste conflitante para evitar 4 colunas em telas pequenas */
   .grid-produtos {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .grid-categorias {
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
