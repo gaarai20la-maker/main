@@ -33,15 +33,22 @@ async function carregarProdutos() {
         <div class="card-estrelas">${estrelas}</div>
         <div class="card-actions">
           <button class="btn-favorito ${isFavorito ? 'ativo' : ''}" data-id="${produto.id}">❤️</button>
-          <button class="btn-comprar" data-id="${produto.id}">Ver Detalhes</button>
+          <button class="btn-comprar" data-id="${produto.id}">Adicionar ao Carrinho</button>
         </div>
       `;
 
-      // Evento para ver detalhes
-      card.querySelector(".btn-comprar").addEventListener("click", (e) => {
-        e.stopPropagation();
+      // Evento para clicar no card (ir para detalhes)
+      card.addEventListener("click", (e) => {
+        // Evitar se clicou em botão
+        if (e.target.tagName === 'BUTTON') return;
         localStorage.setItem("produtoSelecionado", JSON.stringify(produto));
         window.location.href = "produto.html";
+      });
+
+      // Evento para adicionar ao carrinho
+      card.querySelector(".btn-comprar").addEventListener("click", (e) => {
+        e.stopPropagation();
+        adicionarAoCarrinho(produto);
       });
 
       // Evento para favorito
@@ -95,11 +102,17 @@ function atualizarContadorCarrinho() {
   const carrinho = JSON.parse(localStorage.getItem("carrinho")) || [];
   const totalItens = carrinho.reduce((total, item) => total + item.quantidade, 0);
   const carrinhoIcon = document.querySelector(".carrinho-icon");
+  carrinhoIcon.textContent = "🛒";
   if (totalItens > 0) {
-    carrinhoIcon.textContent = `🛒 ${totalItens}`;
+    carrinhoIcon.setAttribute('data-count', totalItens);
   } else {
-    carrinhoIcon.textContent = "🛒";
+    carrinhoIcon.removeAttribute('data-count');
   }
+}
+
+// Função para mostrar mensagem de funcionalidade em processo
+function mostrarEmProcesso() {
+  alert("⏳ Em Processo de Implementação\n\nEsta funcionalidade em breve estará disponível!");
 }
 
 // Carregar produtos ao abrir a página
@@ -175,5 +188,35 @@ function filtrarProdutos() {
   });
 }
 
+// Função para filtrar por categoria
+function filtrarPorCategoria(categoria) {
+  filtrosAtivos.categoria = categoria;
+  document.getElementById("filter-categoria").value = categoria;
+  filtrarProdutos();
+  // Scroll até a seção de produtos
+  document.querySelector(".produtos").scrollIntoView({ behavior: 'smooth' });
+}
+
+// Verificar parâmetro de URL para filtro de categoria
+const urlParams = new URLSearchParams(window.location.search);
+const categoriaParam = urlParams.get('categoria');
+if (categoriaParam) {
+  filtrosAtivos.categoria = categoriaParam;
+  document.getElementById("filter-categoria").value = categoriaParam;
+}
+
 // Atualizar contador ao carregar
 document.addEventListener("DOMContentLoaded", atualizarContadorCarrinho);
+
+// Importar e inicializar funções de usuário
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', () => {
+    if (typeof atualizarHeaderUsuario === 'function') {
+      atualizarHeaderUsuario();
+    }
+  });
+} else {
+  if (typeof atualizarHeaderUsuario === 'function') {
+    atualizarHeaderUsuario();
+  }
+}

@@ -25,7 +25,7 @@ function carregarFavoritos() {
       <div class="card-estrelas">${estrelas}</div>
       <div class="card-actions">
         <button class="btn-favorito ativo" data-id="${produto.id}">❤️</button>
-        <button class="btn-comprar" data-id="${produto.id}">Ver Detalhes</button>
+        <button class="btn-comprar" data-id="${produto.id}">Adicionar ao Carrinho</button>
       </div>
     `;
 

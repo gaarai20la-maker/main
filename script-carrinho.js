@@ -91,10 +91,11 @@ function atualizarContadorCarrinho() {
   const carrinho = JSON.parse(localStorage.getItem("carrinho")) || [];
   const totalItens = carrinho.reduce((total, item) => total + item.quantidade, 0);
   const carrinhoIcon = document.querySelector(".carrinho-icon");
+  carrinhoIcon.textContent = "🛒";
   if (totalItens > 0) {
-    carrinhoIcon.textContent = `🛒 ${totalItens}`;
+    carrinhoIcon.setAttribute('data-count', totalItens);
   } else {
-    carrinhoIcon.textContent = "🛒";
+    carrinhoIcon.removeAttribute('data-count');
   }
 }
 
@@ -105,6 +106,19 @@ document.querySelector(".btn-finalizar").addEventListener("click", () => {
     alert("Seu carrinho está vazio!");
     return;
   }
+
+  // Calcular total
+  let total = 0;
+  carrinho.forEach(item => {
+    const preco = parseFloat(item.preco.replace(",", "."));
+    total += preco * item.quantidade;
+  });
+
+  // Adicionar pedido ao usuário se estiver logado
+  if (typeof adicionarPedidoAoUsuario === 'function') {
+    adicionarPedidoAoUsuario(total);
+  }
+
   alert("Compra finalizada com sucesso! Obrigado por comprar na Lojas Cem.");
   localStorage.removeItem("carrinho");
   carregarCarrinho();

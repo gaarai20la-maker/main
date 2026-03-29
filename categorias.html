@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Categorias - Lojas Cem</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-top">
+    <div class="logo-container" onclick="window.location.href='index.html'">
+      <img src="https://th.bing.com/th/id/OIP.c_TV-15RsPvl0mbiqm_x-gHaB0?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Lojas Cem" class="logo">
+      <h1>LOJAS CEM</h1>
+    </div>
+    <span class="carrinho-icon" onclick="window.location.href='carrinho.html'">🛒</span>
+  </div>
+</header>
+
+<section class="categorias-page">
+  <h2>Categorias</h2>
+  <div class="grid-categorias-page">
+    <div class="categoria-card" onclick="filtrarPorCategoria('Eletrônicos')">
+      <span class="cat-icon">📺</span>
+      <h3>Eletrônicos</h3>
+      <p>TVs, celulares, notebooks e mais</p>
+    </div>
+    <div class="categoria-card" onclick="filtrarPorCategoria('Eletrodomésticos')">
+      <span class="cat-icon">🏠</span>
+      <h3>Eletrodomésticos</h3>
+      <p>Geladeiras, máquinas de lavar e mais</p>
+    </div>
+    <div class="categoria-card" onclick="filtrarPorCategoria('Móveis')">
+      <span class="cat-icon">🛋️</span>
+      <h3>Móveis</h3>
+      <p>Sofás, mesas, cadeiras e mais</p>
+    </div>
+    <div class="categoria-card" onclick="filtrarPorCategoria('Colchões')">
+      <span class="cat-icon">🛏️</span>
+      <h3>Colchões</h3>
+      <p>Colchões e acessórios para dormir</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <nav class="nav-footer">
+    <button class="nav-btn" onclick="window.location.href='index.html'">
+      <span>🏠</span>
+      <p>Início</p>
+    </button>
+    <button class="nav-btn active">
+      <span>📂</span>
+      <p>Categorias</p>
+    </button>
+    <button class="nav-btn" onclick="window.location.href='favoritos.html'">
+      <span>❤️</span>
+      <p>Favoritos</p>
+    </button>
+    <button class="nav-btn" onclick="window.location.href='carrinho.html'">
+      <span>🛒</span>
+      <p>Carrinho</p>
+    </button>
+  </nav>
+</footer>
+
+<script src="script-usuarios.js"></script>
+<script src="script-categorias.js"></script>
+</body>
+</html></content>
+<parameter name="filePath">c:\Users\Lucas\Documents\GitHub\main\categorias.html

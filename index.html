@@ -10,11 +10,12 @@
 
 <header>
   <div class="header-top">
-    <div class="logo-container">
+    <div class="logo-container" onclick="window.location.href='index.html'">
       <img src="https://th.bing.com/th/id/OIP.c_TV-15RsPvl0mbiqm_x-gHaB0?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Lojas Cem" class="logo">
       <h1>LOJAS CEM</h1>
     </div>
     <span class="carrinho-icon" onclick="window.location.href='carrinho.html'">🛒</span>
+    <span class="usuario-icon" onclick="window.location.href='usuarios.html'" style="cursor: pointer; font-size: 24px; margin-left: 15px;">👤</span>
   </div>
   <div class="search-box">
     <input type="text" placeholder="O que você está procurando?" id="search">
@@ -52,21 +53,21 @@
 </section>
 
 <section class="menu-rapido">
-  <div class="menu-item">
+  <div class="menu-item" onclick="mostrarEmProcesso()">
     <span class="icon">💳</span>
     <h4>Meu Carnê</h4>
     <p>Consultar Carnê</p>
   </div>
-  <div class="menu-item">
+  <div class="menu-item" onclick="mostrarEmProcesso()">
     <span class="icon">💰</span>
     <h4>Crédito Fácil</h4>
     <p>Crédito na Hora</p>
   </div>
-  <div class="menu-item">
+  <div class="menu-item" onclick="mostrarEmProcesso()">
     <span class="icon">📍</span>
     <h4>Encontre uma Loja</h4>
   </div>
-  <div class="menu-item">
+  <div class="menu-item" onclick="mostrarEmProcesso()">
     <span class="icon">🏷️</span>
     <h4>Ofertas Exclusivas</h4>
   </div>
@@ -75,22 +76,22 @@
 <section class="categorias">
   <div class="categorias-header">
     <h3>Categorias</h3>
-    <a href="#">Ver Todas ></a>
+    <a href="categorias.html">Ver Todas ></a>
   </div>
   <div class="grid-categorias">
-    <div class="categoria-box">
+    <div class="categoria-box" onclick="filtrarPorCategoria('Eletrodomésticos')">
       <span class="cat-icon">🏠</span>
       <p>Eletrodomésticos</p>
     </div>
-    <div class="categoria-box">
+    <div class="categoria-box" onclick="filtrarPorCategoria('Eletrônicos')">
       <span class="cat-icon">📺</span>
       <p>Eletrônicos</p>
     </div>
-    <div class="categoria-box">
+    <div class="categoria-box" onclick="filtrarPorCategoria('Móveis')">
       <span class="cat-icon">🛋️</span>
       <p>Móveis</p>
     </div>
-    <div class="categoria-box">
+    <div class="categoria-box" onclick="filtrarPorCategoria('Colchões')">
       <span class="cat-icon">🛏️</span>
       <p>Colchões</p>
     </div>
@@ -108,7 +109,7 @@
       <span>🏠</span>
       <p>Início</p>
     </button>
-    <button class="nav-btn">
+    <button class="nav-btn" onclick="window.location.href='categorias.html'">
       <span>📂</span>
       <p>Categorias</p>
     </button>
@@ -123,6 +124,7 @@
   </nav>
 </footer>
 
+<script src="script-usuarios.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
