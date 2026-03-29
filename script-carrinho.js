@@ -102,8 +102,13 @@ function atualizarContadorCarrinho() {
 // Event listener para finalizar compra
 document.querySelector(".btn-finalizar").addEventListener("click", () => {
   const carrinho = JSON.parse(localStorage.getItem("carrinho")) || [];
+  const mensagem = document.getElementById("carrinho-mensagem");
+  mensagem.textContent = "";
+  mensagem.className = "";
+
   if (carrinho.length === 0) {
-    alert("Seu carrinho está vazio!");
+    mensagem.textContent = "Seu carrinho está vazio!";
+    mensagem.classList.add("carrinho-erro");
     return;
   }
 
@@ -119,10 +124,17 @@ document.querySelector(".btn-finalizar").addEventListener("click", () => {
     adicionarPedidoAoUsuario(total);
   }
 
-  alert("Compra finalizada com sucesso! Obrigado por comprar na Lojas Cem.");
+  mensagem.textContent = "Compra finalizada com sucesso! Obrigado por comprar na Lojas Cem.";
+  mensagem.classList.add("carrinho-sucesso");
+
   localStorage.removeItem("carrinho");
   carregarCarrinho();
   atualizarContadorCarrinho();
+
+  setTimeout(() => {
+    mensagem.textContent = "";
+    mensagem.className = "";
+  }, 2500);
 });
 
 // Carregar carrinho ao abrir a página
